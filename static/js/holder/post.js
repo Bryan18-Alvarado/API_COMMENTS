@@ -163,7 +163,7 @@ const showPost = async (id) => {
   return data;
 };
 
-//Funcion para obtener los comentarios de un usuario.
+//Funcion para obtener los comentarios de un post.
 const showComments = async (id) => {
   const url = `https://jsonplaceholder.typicode.com/posts/${id}/comments`;
   const res = await fetch(url);
